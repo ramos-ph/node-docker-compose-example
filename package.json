@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/main.js",
+    "docker-start": "docker-compose up -d",
     "migrate": "knex migrate:latest"
   },
   "keywords": [],
